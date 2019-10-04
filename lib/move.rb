@@ -11,7 +11,7 @@ def input_to_index(input)
 end
 
 def move(arr, indx, char="X")
-  char = (char == "X" ? "X" : "O")
+  char = char == "X" ? "X" : "O"
 	# puts "CHECKPOINT 1\narr: #{arr},\nindx: #{indx}\nchar: #{char}"
 	if arr[indx] == ""
 	  arr[indx, 1]
