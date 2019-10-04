@@ -24,10 +24,12 @@ def move(arr, indx, char="X")
 	end
 
 	if indx == 0 or indx == 1
-    	indx = 0
+    	arr.unshift
+    	arr[0] = char
 	end
 	if indx >= arr.length
     	indx = 8
+    	arr[indx] = char
   	end
 	# puts " CHECKPOINT 2:\narr: #{arr},\nindx: #{indx},\nchar: #{char}"
 end
