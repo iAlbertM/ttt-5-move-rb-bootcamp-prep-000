@@ -29,5 +29,5 @@ def move(arr, indx, char="X")
 	if indx >= arr.length
     	indx = 8
   	end
-	# puts " CHECKPOINT 2:\narr: #{arr},\nindx: #{indx},\nplayer: #{player}"
+	# puts " CHECKPOINT 2:\narr: #{arr},\nindx: #{indx},\nchar: #{char}"
 end
