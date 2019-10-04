@@ -23,8 +23,8 @@ def move(arr, indx, char="X")
     indx = input_to_index(input.to_i)
 	end
 
-	if indx.to_i == 0 or indx.to_i == 1
-    	arr[0.to_i, char]
+	if indx == 0 or indx == 1
+    	arr[indx.to_i] = char
 	end
 	if indx.to_i >= 8
     	arr[8] = char
