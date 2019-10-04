@@ -7,7 +7,7 @@ puts "Where would you like to go?"
 input = gets.strip
 index = input_to_index(input)
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+game_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-move(board, 4, "O")
-display_board(board)
+#move(game_board, 4, "X")
+display_board(game_board)
