@@ -17,7 +17,7 @@ def move(arr, indx, player="X")
 	  arr[index, 1]
 		arr.insert(indx, player)
 		puts arr # check if arr was updated
-		else
+	else
  		puts "Oops! Space is taken. Try another one"
     input = gets.strip
     indx = input_to_index(input)
