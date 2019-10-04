@@ -15,7 +15,8 @@ def move(arr, indx, char="X")
 	# puts "CHECKPOINT 1\narr: #{arr},\nindx: #{indx}\nchar: #{char}"
 	if arr[indx] == " "
 	 # arr[indx.to_i, 1]
-		arr.insert(indx.to_i, char)
+		# arr.insert(indx.to_i, char)
+		
 		# puts arr # check if arr was updated
 	else
  		puts "Oops! Space #{indx.to_s} is taken. Try again"
