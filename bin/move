@@ -6,8 +6,10 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 input = gets.strip
 index = input_to_index(input)
-puts "Are you 'X' or 'O'? type in either capital: 'X' or 'O':
+
+puts "Are you 'X' or 'O'? type in either capital: 'X' or 'O':"
 char = gets.strip
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 move(board, index, char)
