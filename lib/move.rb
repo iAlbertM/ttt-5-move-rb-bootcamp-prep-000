@@ -27,7 +27,7 @@ def move(arr, indx, char="X")
     	arr.unshift
     	arr[0] = char
 	end
-	if indx >= arr.length
+	if indx >= arr.length-1
     	indx = 8
     	arr[indx] = char
   	end
