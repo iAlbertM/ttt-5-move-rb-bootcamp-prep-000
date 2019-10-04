@@ -10,4 +10,4 @@ index = input_to_index(input)
 game_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 # move(game_board, 4, "X")
-display_board(game_board)
+# display_board(game_board)
