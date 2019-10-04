@@ -11,7 +11,6 @@ def input_to_index(input)
 end
 
 def move(arr, indx, char="X")
-	# puts "CHECKPOINT 1\narr: #{arr},\nindx: #{indx}\nchar: #{char}"
 	if arr[indx] == " "
 	  arr[indx, 1] = char
 	  else
@@ -23,8 +22,8 @@ def move(arr, indx, char="X")
 	if indx == 0 or indx == 1
     	arr[indx, 1] = char
 	end
+	
 	if indx.to_i >= 8
     	arr[8] = char
   	end
-	# puts " CHECKPOINT 2:\narr: #{arr},\nindx: #{indx},\nchar: #{char}"
 end
