@@ -12,7 +12,7 @@ end
 
 def move(arr, indx, char="X")
   char = (char == "X" ? "X" : "O")
-	# puts "CHECKPOINT 1\narr: #{arr},\nindx: #{indx}\nplayer: #{player}"
+	# puts "CHECKPOINT 1\narr: #{arr},\nindx: #{indx}\nchar: #{char}"
 	if arr[indx] == ""
 	  arr[index, 1]
 		arr.insert(indx, player)
