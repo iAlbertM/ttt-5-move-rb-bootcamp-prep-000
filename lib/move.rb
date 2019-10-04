@@ -14,11 +14,11 @@ def move(arr, indx, char="X")
   char = (char == "X" ? "X" : "O")
 	# puts "CHECKPOINT 1\narr: #{arr},\nindx: #{indx}\nchar: #{char}"
 	if arr[indx] == ""
-	  arr[index, 1]
+	  arr[indx, 1]
 		arr.insert(indx, char)
 		puts arr # check if arr was updated
 	else
- 		puts "Oops! Space is taken. Try another one"
+ 		puts "Oops! Space #{indx} is taken. Try again"
     input = gets.strip
     indx = input_to_index(input)
 	end
