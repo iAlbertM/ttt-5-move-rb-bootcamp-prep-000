@@ -24,7 +24,7 @@ def move(arr, indx, char="X")
 	end
 
 	if indx.to_i == 0 or indx.to_i == 1
-    	arr[0, char]
+    	arr[0.to_i, char]
 	end
 	if indx.to_i >= 8
     	arr[8] = char
