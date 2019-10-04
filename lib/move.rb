@@ -10,8 +10,8 @@ def input_to_index(input)
   input = input.to_i - 1
 end
 
-def move(arr, indx, player="X")
-  player = (player == "X" ? "X" : "O")
+def move(arr, indx, char="X")
+  char = (char == "X" ? "X" : "O")
 	# puts "CHECKPOINT 1\narr: #{arr},\nindx: #{indx}\nplayer: #{player}"
 	if arr[indx] == ""
 	  arr[index, 1]
